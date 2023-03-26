@@ -1,1 +1,1 @@
-Eestikeelne veebileht mõeldud keemiliste reaktsioonivõrrandite õppimiseks.
+Eestikeelne veebileht mõeldud keemiliste reaktsioonivõrrandite õppimiseks. Lõpetamata!
