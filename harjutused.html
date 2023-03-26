@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script defer src="scripts/main.js"></script>
+    <title>Reakt</title>
+    <link href="styles/harjstyle.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div class="container">
+      <div id="questioncontainer" class="hide">
+        <div id="question">Küsimus</div>
+        <div id="answerbuttons" class="btngrid">
+          <button class="btn">Vastus 1</button>
+          <button class="btn">Vastus 2</button>
+          <button class="btn">Vastus 3</button>
+          <button class="btn">Vastus 4</button>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="startbtn" class="startbtn btn">Alusta</button>
+        <button id="nextbtn" class="nextbtn btn hide">Järgmine</button>
+      </div>
+    </div>
+    <button class="homebtn" onclick="window.location.href = 'index.html';">
+      <img src="images/homepage96.png">
+    </button> 
+  </body>
+</html>

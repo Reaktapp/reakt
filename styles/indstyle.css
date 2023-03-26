@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 236, 239);
+}
+
+h1 {
+    margin: 12vh;
+    color: rgb(39, 76, 119);
+    font-size: 7rem;
+    text-align: center;
+    -webkit-text-stroke-width: 0.15vw;
+    -webkit-text-stroke-color: rgb(11, 26, 41);
+    font-family: 'Arial';
+}
+
+.btn {
+    width: 14vw;
+    height: 12vh;
+    border-color: black;
+    border: 0vw;
+    background-color: rgb(39, 76, 119);
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    color: white;
+    outline: none;
+    font-size: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.parentdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
