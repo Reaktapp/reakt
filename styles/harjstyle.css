@@ -1,6 +1,6 @@
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: 'Arial';
+  font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
 }
   
