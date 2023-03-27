@@ -77,163 +77,163 @@ function clearStatusClass(element) {
 }
 
 
-//Küsimused
+//Küsimused, 20
 
 const questions = [
   {
-    question: 'Mg + HCl = ?',
+    question: 'Mg + HCl → ?',
     answers: [
-      { text: 'MgCl2 + H2', correct: true },
-      { text: 'MgHCll', correct: false }
+      { text: 'MgCl₂ + H₂', correct: true },
+      { text: 'MgHCl', correct: false }
     ]
   },
   {
-    question: 'Fe + CuSO4 = ?',
+    question: 'Fe + CuSO₄ → ?',
     answers: [
-      { text: 'FeSi2 + Cu', correct: false },
-      { text: 'FeSO4 + Cu', correct: true },
-      { text: 'FeSO4 + Al', correct: false },
-      { text: 'FeSO2 + Cu2', correct: false }
+      { text: 'FeSi₂ + Cu', correct: false },
+      { text: 'FeSO₄ + Cu', correct: true },
+      { text: 'FeSO₄ + Al', correct: false },
+      { text: 'FeSO₂ + Cu₂', correct: false }
     ]
   },
   {
-    question: '2 Cu + O2 = ?',
+    question: '2 Cu + O₂ → ?',
     answers: [
-      { text: 'O2', correct: false },
+      { text: 'O₂', correct: false },
       { text: '2 CuO', correct: true },
-      { text: 'CuO2', correct: false },
+      { text: 'CuO₂', correct: false },
       { text: 'CuO', correct: false }
     ]
   },
   {
-    question: 'Fe + S = ?',
+    question: 'Fe + S → ?',
     answers: [
-      { text: 'S2', correct: false },
+      { text: 'S₂', correct: false },
       { text: 'FeS', correct: true }
     ]
   },
   {
-    question: '6 K + Al2(SO4)3 = ?',
+    question: '6 K + Al₂(SO₄)₃ → ?',
     answers: [
-      { text: '3 K2SO4 + 2 Al', correct: true },
-      { text: 'K2 + 2 Al', correct: false }
+      { text: '3 K₂SO₄ + 2 Al', correct: true },
+      { text: 'K₂ + 2 Al', correct: false }
     ]
   },
   {
-    question: '2Al + 6HBr = ?',
+    question: '2Al + 6HBr → ?',
     answers: [
-      { text: '2 AlBr + 3 H2', correct: true },
-      { text: 'AlBr2 + 4 H2', correct: false }
+      { text: '2 AlBr + 3 H₂', correct: true },
+      { text: 'AlBr₂ + 4 H₂', correct: false }
     ]
   },
   {
-    question: '3 Mg + 2 FeCl3 = ?',
+    question: '3 Mg + 2 FeCl₃ → ?',
     answers: [
-      { text: '5 MgCl2 + Fe', correct: false },
-      { text: '3 MgCl2 + 2 Fe', correct: true }
+      { text: '5 MgCl₂ + Fe', correct: false },
+      { text: '3 MgCl₂ + 2 Fe', correct: true }
     ]
   },
   {
-    question: 'Mg + Cl2 = ?',
+    question: 'Mg + Cl₂ → ?',
     answers: [
-      { text: 'MgCl2', correct: false },
+      { text: 'MgCl₂', correct: false },
       { text: 'MgCl', correct: true }
     ]
   },
   {
-    question: '2 Na + 2 H2O = ?',
+    question: '2 Na + 2 H₂O → ?',
     answers: [
-      { text: 'NaOH + H2O', correct: false },
-      { text: 'NaOH + H2', correct: false },
-      { text: '2 NaOH + H2', correct: true },
-      { text: 'NaOH + 2 H2', correct: false }
+      { text: 'NaOH + H₂O', correct: false },
+      { text: 'NaOH + H₂', correct: false },
+      { text: '2 NaOH + H₂', correct: true },
+      { text: 'NaOH + 2 H₂', correct: false }
     ]
   },
   {
-    question: 'Ca + 2 H2O = ?',
+    question: 'Ca + 2 H₂O → ?',
     answers: [
-      { text: 'Ca(OH)2 + H2', correct: true },
-      { text: 'Ca2 + H2', correct: false },
-      { text: 'H2O', correct: false },
-      { text: 'Ca(OH)2 + H2O', correct: false }
+      { text: 'Ca(OH)₂ + H₂', correct: true },
+      { text: 'Ca₂ + H₂', correct: false },
+      { text: 'H₂O', correct: false },
+      { text: 'Ca(OH)₂ + H₂O', correct: false }
     ]
   },
   {
-    question: '3 Ca + 2 H3PO4 = ?',
+    question: '3 Ca + 2 H₃PO₄ → ?',
     answers: [
-      { text: 'Ca3(PO4)3 + H2O', correct: false },
-      { text: 'Ca3(PO4)3 + 3 H2', correct: true },
-      { text: 'Ca6 + 3 H2', correct: false },
-      { text: 'Ca + H2', correct: false }
+      { text: 'Ca₃(PO₄)₃ + H₂O', correct: false },
+      { text: 'Ca₃(PO₄)₃ + 3 H₂', correct: true },
+      { text: 'Ca₆ + 3 H₂', correct: false },
+      { text: 'Ca + H₂', correct: false }
     ]
   },
   {
-    question: 'Al + NiSO4 = ?',
+    question: 'Al + NiSO₄ → ?',
     answers: [
-      { text: 'AlNiSO4', correct: false },
-      { text: 'Al + Ni2', correct: false },
-      { text: 'AlSO2 + Ni', correct: false },
-      { text: 'AlSO4 + Ni', correct: true }
+      { text: 'AlNiSO₄', correct: false },
+      { text: 'Al + Ni₂', correct: false },
+      { text: 'AlSO₂ + Ni', correct: false },
+      { text: 'AlSO₄ + Ni', correct: true }
     ]
   },
   {
-    question: 'Zn + H2O = ?',
+    question: 'Zn + H₂O → ?',
     answers: [
-      { text: 'ZnO + H2', correct: true },
-      { text: 'ZnO + H2O', correct: false }
+      { text: 'ZnO + H₂', correct: true },
+      { text: 'ZnO + H₂O', correct: false }
     ]
   },
   {
-    question: 'CH4 + 2 O2 = ?',
+    question: 'CH₄ + 2 O₂ → ?',
     answers: [
-      { text: 'CO2 + 2 H2O', correct: true },
-      { text: 'CH4 + H2O', correct: false }
+      { text: 'CO₂ + 2 H₂O', correct: true },
+      { text: 'CH₄ + H₂O', correct: false }
     ]
   },
   {
-    question: 'Fe + 2 HCl = ?',
+    question: 'Fe + 2 HCl → ?',
     answers: [
-      { text: 'FeCl4 + 2 H2', correct: false },
-      { text: 'H2 + Fe', correct: false },
-      { text: 'FeCl2', correct: false },
-      { text: 'FeCl2 + H2', correct: true }
+      { text: 'FeCl₄ + 2 H₂', correct: false },
+      { text: 'H₂ + Fe', correct: false },
+      { text: 'FeCl₂', correct: false },
+      { text: 'FeCl₂ + H₂', correct: true }
     ]
   },
   {
-    question: 'Ni + H2O = ?',
+    question: 'Ni + H₂O → ?',
     answers: [
-      { text: 'NiO + H2', correct: true },
-      { text: 'NiO + H2O', correct: false }
+      { text: 'NiO + H₂', correct: true },
+      { text: 'NiO + H₂O', correct: false }
     ]
   },
   {
-    question: '2 Fe + 3 Br2 = ?',
+    question: '2 Fe + 3 Br₂ → ?',
     answers: [
-      { text: 'FeBr2', correct: false },
-      { text: '2 FeBr2', correct: true }
+      { text: 'FeBr₂', correct: false },
+      { text: '2 FeBr₂', correct: true }
     ]
   },
   {
-    question: '2 Al + 3 H2SO4 = ?',
+    question: '2 Al + 3 H₂SO₄ → ?',
     answers: [
-      { text: 'Al2(SO4)3 + 3 H2', correct: true },
-      { text: 'Al2(SO4)2 + 2 H2', correct: false }
+      { text: 'Al₂(SO₄)₃ + 3 H₂', correct: true },
+      { text: 'Al₂(SO₄)₂ + 2 H₂', correct: false }
     ]
   },
   {
-    question: '2 Li + 2 H2O = ?',
+    question: '2 Li + 2 H₂O → ?',
     answers: [
-      { text: 'Li + 2 H2', correct: false },
-      { text: 'LiOH + H2', correct: false },
-      { text: '2 LiOH + H2', correct: true },
-      { text: 'LiOH + 2 H2', correct: false }
+      { text: 'Li + 2 H₂', correct: false },
+      { text: 'LiOH + H₂', correct: false },
+      { text: '2 LiOH + H₂', correct: true },
+      { text: 'LiOH + 2 H₂', correct: false }
     ]
   },
   {
-    question: 'Fe + H2O = ?',
+    question: 'Fe + H₂O → ?',
     answers: [
-      { text: 'FeO + H2', correct: true },
-      { text: 'FeO + H2O', correct: false }
+      { text: 'FeO + H₂', correct: true },
+      { text: 'FeO + H₂O', correct: false }
     ]
   }
 ]
