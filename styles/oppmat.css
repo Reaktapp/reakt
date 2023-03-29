@@ -15,8 +15,8 @@ h1 {
 }
 
 button {
-    width: 15vw;
-    height: 12vh;
+    width: 16vw;
+    height: 13vh;
     border-color: black;
     border: 0vw;
     background-color: rgb(39, 76, 119);
@@ -28,6 +28,7 @@ button {
     outline: none;
     font-size: 2rem;
     font-family: 'Noto Sans', sans-serif;
+    max-width: 80%;
 }
 
 .buttondiv {
