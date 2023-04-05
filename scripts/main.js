@@ -77,23 +77,23 @@ function clearStatusClass(element) {
 }
 
 
-//Küsimused, 20
+//Tubli töö, leidsid vastused. Nüüd mine õpi edasi.
 
 const questions = [
   {
-    question: 'Mg + HCl → ?',
+    question: 'Mg + 2 HCl → ?',
     answers: [
       { text: 'MgCl₂ + H₂', correct: true },
       { text: 'MgHCl', correct: false }
     ]
   },
   {
-    question: 'Fe + CuSO₄ → ?',
+    question: '3 Zn + 2 FeCl₃ → ?',
     answers: [
       { text: 'FeSi₂ + Cu', correct: false },
-      { text: 'FeSO₄ + Cu', correct: true },
-      { text: 'FeSO₄ + Al', correct: false },
-      { text: 'FeSO₂ + Cu₂', correct: false }
+      { text: '3 ZnCl₂ + 2 Fe', correct: true },
+      { text: 'ZnCl₄ + Fe', correct: false },
+      { text: '3 ZnCl₃ + 2 Fe₂', correct: false }
     ]
   },
   {
@@ -113,16 +113,9 @@ const questions = [
     ]
   },
   {
-    question: '6 K + Al₂(SO₄)₃ → ?',
-    answers: [
-      { text: '3 K₂SO₄ + 2 Al', correct: true },
-      { text: 'K₂ + 2 Al', correct: false }
-    ]
-  },
-  {
     question: '2Al + 6HBr → ?',
     answers: [
-      { text: '2 AlBr + 3 H₂', correct: true },
+      { text: '2 AlBr₃ + 3 H₂', correct: true },
       { text: 'AlBr₂ + 4 H₂', correct: false }
     ]
   },
@@ -136,8 +129,8 @@ const questions = [
   {
     question: 'Mg + Cl₂ → ?',
     answers: [
-      { text: 'MgCl₂', correct: false },
-      { text: 'MgCl', correct: true }
+      { text: 'MgCl₂', correct: true },
+      { text: 'MgCl', correct: false }
     ]
   },
   {
@@ -159,35 +152,17 @@ const questions = [
     ]
   },
   {
-    question: '3 Ca + 2 H₃PO₄ → ?',
-    answers: [
-      { text: 'Ca₃(PO₄)₃ + H₂O', correct: false },
-      { text: 'Ca₃(PO₄)₃ + 3 H₂', correct: true },
-      { text: 'Ca₆ + 3 H₂', correct: false },
-      { text: 'Ca + H₂', correct: false }
-    ]
-  },
-  {
-    question: 'Al + NiSO₄ → ?',
-    answers: [
-      { text: 'AlNiSO₄', correct: false },
-      { text: 'Al + Ni₂', correct: false },
-      { text: 'AlSO₂ + Ni', correct: false },
-      { text: 'AlSO₄ + Ni', correct: true }
-    ]
-  },
-  {
     question: 'Zn + H₂O → ?',
     answers: [
-      { text: 'ZnO + H₂', correct: true },
-      { text: 'ZnO + H₂O', correct: false }
+      { text: 'ZnO + H₂', correct: false },
+      { text: 'ZnO + H₂O', correct: true }
     ]
   },
   {
-    question: 'CH₄ + 2 O₂ → ?',
+    question: '2 Na + Cl₂ → ?',
     answers: [
-      { text: 'CO₂ + 2 H₂O', correct: true },
-      { text: 'CH₄ + H₂O', correct: false }
+      { text: '2 NaCl', correct: true },
+      { text: 'NaCl', correct: false }
     ]
   },
   {
@@ -202,38 +177,22 @@ const questions = [
   {
     question: 'Ni + H₂O → ?',
     answers: [
-      { text: 'NiO + H₂', correct: true },
-      { text: 'NiO + H₂O', correct: false }
+      { text: 'NiO + H₂', correct: false },
+      { text: 'NiO + H₂O', correct: true }
     ]
   },
   {
-    question: '2 Fe + 3 Br₂ → ?',
+    question: '2 Fe + 3 Cl₂ → ?',
     answers: [
-      { text: 'FeBr₂', correct: false },
-      { text: '2 FeBr₂', correct: true }
+      { text: 'FeCl₂', correct: false },
+      { text: '2 FeCl₃', correct: true }
     ]
   },
   {
-    question: '2 Al + 3 H₂SO₄ → ?',
+    question: 'Cl₂ + Cu → ?', 
     answers: [
-      { text: 'Al₂(SO₄)₃ + 3 H₂', correct: true },
-      { text: 'Al₂(SO₄)₂ + 2 H₂', correct: false }
+      { text: 'CuCl₂', correct: true },
+      { text: '2 CuCl', correct: false }
     ]
   },
-  {
-    question: '2 Li + 2 H₂O → ?',
-    answers: [
-      { text: 'Li + 2 H₂', correct: false },
-      { text: 'LiOH + H₂', correct: false },
-      { text: '2 LiOH + H₂', correct: true },
-      { text: 'LiOH + 2 H₂', correct: false }
-    ]
-  },
-  {
-    question: 'Fe + H₂O → ?',
-    answers: [
-      { text: 'FeO + H₂', correct: true },
-      { text: 'FeO + H₂O', correct: false }
-    ]
-  }
 ]
