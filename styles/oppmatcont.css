@@ -3,7 +3,6 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     transform: scale(0.9);
-    transform-origin: 0 0;
 }
 
 h1 {
