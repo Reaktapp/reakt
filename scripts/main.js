@@ -154,8 +154,8 @@ const questions = [
   {
     question: 'Zn + H₂O → ?',
     answers: [
-      { text: 'ZnO + H₂', correct: false },
-      { text: 'ZnO + H₂O', correct: true }
+      { text: 'ZnO + H₂', correct: true },
+      { text: 'ZnO + H₂O', correct: false }
     ]
   },
   {
